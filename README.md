@@ -1,12 +1,77 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly web application for tracking personal expenses. Users can add, edit, and delete expenses, and view their financial summary, including total expenditure, income, and savings.
 
-Currently, two official plugins are available:
+## Features
+- Add and delete expenses with details like category, amount, and description.
+- View detailed breakdown of your expenses by category.
+- Edit existing expenses.
+- Track your total expenses and income.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+ **Frontend**: 
+- HTML,
+- CSS, 
+- JavaScript (React)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (LTS version recommended)
+- **npm** (Node package manager)
+
+### Installation
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/expense-tracker.git
+    cd expense-tracker
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the application:
+    ```bash
+    npm start
+    ```
+
+    This will start the development server, and you can access the application at `http://localhost:3000`.
+
+### Backend Setup (if applicable)
+
+If your application includes a backend:
+1. Navigate to the `backend/` directory (or similar).
+2. Install backend dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the backend server:
+    ```bash
+    npm start
+    ```
+
+### Configuration
+
+For database and authentication configuration, refer to the `.env` file or any configuration files (like Firebase keys or MongoDB URI).
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Make your changes.
+4. Commit your changes: `git commit -m 'Add new feature'`.
+5. Push to your branch: `git push origin feature/your-feature`.
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Node.js](https://nodejs.org/) - JavaScript runtime.
+- [Express](https://expressjs.com/) - Web framework for Node.js.
